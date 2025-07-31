@@ -1,7 +1,7 @@
 import * as THREE from 'three'
-import { useEffect, useRef, useState } from 'react'
-import { Canvas, extend, useFrame, useThree } from '@react-three/fiber'
-import { useCursor, MeshPortalMaterial, CameraControls, Gltf, Text, Preload } from '@react-three/drei'
+import { useEffect} from 'react'
+import { Canvas, useThree } from '@react-three/fiber'
+import { MeshPortalMaterial, CameraControls, Text } from '@react-three/drei'
 
 export const App = () => (
   <Canvas flat camera={{ fov: 75, position: [0, 0, 20] }} eventSource={document.getElementById('root')} eventPrefix="client">
