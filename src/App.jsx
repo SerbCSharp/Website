@@ -16,9 +16,9 @@ export default function App()
     <Frame id="JS" name="React Three Fiber" bg="./textures/R3F.JPG" url="https://r3-f-three.vercel.app/" position={[2.3, 0, 0]} rotation={[0, 0, 0]} />
     <Rig />
 
-    {/* <Suspense>     */}
+    <Suspense>    
       <Model />
-    {/* </Suspense> */}
+    </Suspense>
 
   </Canvas>
   )
