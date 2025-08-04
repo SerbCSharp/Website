@@ -5,4 +5,16 @@ import './style.css'
 
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
-root.render(<App />)
+root.render(
+    <Canvas
+        shadows
+        camera={ {
+            fov: 75,
+            near: 0.1,
+            far: 200,
+            position: [ 0, 0, 2 ]
+        } }
+    >
+        <App />
+    </Canvas>
+)
