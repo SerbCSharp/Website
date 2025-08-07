@@ -36,12 +36,12 @@ function Frame({ id, name, bg, url, width = 1.075, height = 1.61803398875, ...pr
       DateTime: ''
     }
     console.log(url)
-    const response = await fetch('',
-    {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json;charset=utf-8' },
-      body: JSON.stringify(visit)
-    })
+    // const response = await fetch('',
+    // {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/json;charset=utf-8' },
+    //   body: JSON.stringify(visit)
+    // })
     console.log(ip)
 
     window.location.href = url
