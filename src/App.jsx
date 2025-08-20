@@ -31,20 +31,19 @@ function Frame({ id, name, bg, url, width = 1.075, height = 1.61803398875, ...pr
   {
     const ip = await fetch('https://api.ipify.org/').then(r => r.text());
     const visit = {
-      IpAddress: ip,
-      Url: url,
-      DateTime: ''
+      ipAddress: ip,
+      url: url
     }
     console.log(url)
-    // const response = await fetch('',
-    // {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json;charset=utf-8' },
-    //   body: JSON.stringify(visit)
-    // })
+    const response = await fetch('https://repository.somee.com/SiteVisits/Create',
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json;charset=utf-8' },
+      body: JSON.stringify(visit)
+    })
     console.log(ip)
 
-    window.location.href = url
+    // window.location.href = url
   }
 
   useCursor(hovered)
