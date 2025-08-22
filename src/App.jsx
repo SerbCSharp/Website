@@ -17,8 +17,8 @@ return <>
 
     <Frame id="JS" name="ThreeJs" bg="./textures/Portal.JPG" url="https://three-js-eight-henna.vercel.app/" position={[-2.3, 0, 0]} />
     <Frame id="C#" name="Microservice" bg="./textures/Microservice.JPG" url="https://github.com/SerbCSharp/Catalog" position={[-1.15, 0, 0]} />
-    <Frame id="JS" name="Portfolio" bg="./textures/Portfolio.JPG" url="https://portfolio-eta-five-24.vercel.app/" position={[0, 0, 0]} />
-    <Frame id="C#" name="TelegramBot" bg="./textures/TelegramBot.JPG" url="https://github.com/SerbCSharp/TelegramChatBot" position={[1.15, 0, 0]} />
+    <Frame id="C#" name="Site view analysis" bg="./textures/SiteViewAnalysis.JPG" url="https://github.com/SerbCSharp/SiteViewAnalysis" position={[0, 0, 0]} />
+    <Frame id="C#" name="Telegram Bot" bg="./textures/TelegramBot.JPG" url="https://github.com/SerbCSharp/TelegramChatBot" position={[1.15, 0, 0]} />
     <Frame id="JS" name="React Three Fiber" bg="./textures/R3F.JPG" url="https://r3-f-three.vercel.app/" position={[2.3, 0, 0]} />
     <Model />
 </>
