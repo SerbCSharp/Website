@@ -35,7 +35,7 @@ function Frame({ id, name, bg, url, width = 1.075, height = 1.61803398875, ...pr
       url: url
     }
 
-    const response = await fetch('https://repository.somee.com/SiteVisits/Create',
+    fetch('https://repository.somee.com/SiteVisits/Create',
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json;charset=utf-8' },
